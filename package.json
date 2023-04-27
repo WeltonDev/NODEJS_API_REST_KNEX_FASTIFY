@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "dev": "npx tsx watch src/server.ts",
     "knex": "node --no-warnings --loader tsx node_modules/.bin/knex",
@@ -27,6 +30,7 @@
     "@types/supertest": "^2.0.12",
     "dotenv": "^16.0.3",
     "knex": "^2.4.2",
+    "pg": "^8.10.0",
     "sqlite3": "^5.1.6",
     "supertest": "^6.3.3",
     "zod": "^3.21.4"
